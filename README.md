@@ -1,5 +1,5 @@
-![ss1](https://github.com/emrecnr/RollerColorBall/assets/121261363/d63960da-5822-40fd-a81c-823a4d95c7a8)
-![ss2](https://github.com/emrecnr/RollerColorBall/assets/121261363/92a5f2e7-7c6f-4e31-906e-e78bb58da3fb)
+![ss1](https://github.com/emrecnr/RollerColorBall/assets/121261363/d63960da-5822-40fd-a81c-823a4d95c7a8| width=100)
+![ss2](https://github.com/emrecnr/RollerColorBall/assets/121261363/92a5f2e7-7c6f-4e31-906e-e78bb58da3fb| width=100)
 
 # RollerColorBall
 This game has been developed using the Unity engine with the C# programming language. It is a clone of Roller Splat.
