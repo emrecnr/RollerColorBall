@@ -1,6 +1,30 @@
 # RollerColorBall
 This game has been developed using the Unity engine with the C# programming language. It is a clone of Roller Splat.
 
+#En
+Project Name: "Rollor Color Ball"
+
+Description:
+"Rollor Color Ball" is an interactive game developed using the Unity game engine. This project allows players to navigate a maze-like environment by controlling a colored ball and painting blocks according to specified rules.
+
+Key Features:
+
+Level Generation: The game dynamically generates levels using a pixel-based map of a level. This allows for the continuous creation of new and unique levels.
+
+Ball Movement and Obstacles: Players attempt to overcome obstacles by controlling a colored ball. The ball moves according to predefined rules and paints blocks of a specific color.
+
+Colored Blocks and Painting Processes: Blocks in the levels are painted with a specific color as the player's ball passes over them. This requires strategic and careful control of the ball's movement.
+
+Colorful Coordination: The automatic painting of blocks during the movement of the ball is seamlessly integrated. This adds dynamism and interactivity to the gaming experience.
+
+Technologies:
+
+Unity3D
+C#
+GG.Infrastructure.Utils.Swipe (Library used for swipe controls)
+Outcome:
+"Rollor Color Ball" is a project designed to practice game development skills and provide an entertaining gaming experience. Features such as pixel-based level generation, automatic painting of colored blocks, and ball movement enhance the project's dynamism, offering users an engaging experience.
+--------------------------------------------------------------------------------------------------
 # TR
 Proje Adı: "Rollor Color Ball"
 
