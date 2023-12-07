@@ -10,6 +10,11 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private GameObject prefabWallTile;
     [SerializeField] private GameObject prefabRoadTile;
 
+    [Header("Paint")]
+    public  Color paintColor;
+    [HideInInspector] public List<RoadTile> roadTiles = new List<RoadTile>();
+    [HideInInspector] public RoadTile defaultBallRoadTile;
+
     private Color colorWall = Color.white;
     private Color colorRoad = Color.black;
 
@@ -19,6 +24,7 @@ public class LevelManager : MonoBehaviour
     {
         // Level generation process is initiated within the Awake method.
         GenerateTile();
+        defaultBallRoadTile = roadTiles[0];
     }
 
     private void GenerateTile()
@@ -26,7 +32,7 @@ public class LevelManager : MonoBehaviour
         // Calculate the unit equivalent of a pixel.
         unitPerPixel = prefabWallTile.transform.lossyScale.x;
         float halfUnit = unitPerPixel / 2f;
-        float width = levelTexture.width;
+        float width = levelTexture.width; 
         float height = levelTexture.height;
 
         // Calculate an offset based on the level size.
@@ -60,5 +66,8 @@ public class LevelManager : MonoBehaviour
         position.y = prefabTile.transform.position.y;
         // Instantiate the object.
         GameObject obj = Instantiate(prefabTile, position, Quaternion.identity, transform);
+
+        if(prefabTile == prefabRoadTile)
+        roadTiles.Add(obj.GetComponent<RoadTile>());
     }
 }

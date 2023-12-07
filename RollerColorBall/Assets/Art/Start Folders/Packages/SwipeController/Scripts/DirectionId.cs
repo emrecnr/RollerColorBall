@@ -13,13 +13,16 @@ namespace GG.Infrastructure.Utils.Swipe
         public const string ID_DOWN_LEFT = "DownLeft";
         public const string ID_DOWN_RIGHT = "DownRight";
 
-        public readonly string Id;
-        public readonly Vector3 Direction;
-
+        public  string Id;
+        public  Vector3 Direction;
         public DirectionId(string id, Vector3 direction)
         {
             Id = id;
             Direction = direction;
         }
+
+
+
+
     }
 }
